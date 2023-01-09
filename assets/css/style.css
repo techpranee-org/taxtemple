@@ -112,7 +112,28 @@
   text-transform: uppercase;
   cursor: pointer;
 }
+.boxed-btn1 {
+  background: #fff;
+  color: #14435c !important;
+  display: inline-block;
+  padding: 15px 15px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  border: 0;
+  border: 1px solid #14435c;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #14435c;
+  text-transform: uppercase;
+  cursor: pointer;
+}
 
+.boxed-btn1:hover {
+  background: #14435c;
+  color: #fff !important;
+  border: 1px solid #14435c;
+}
 /* line 75, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_variables.scss */
 .boxed-btn:hover {
   background: #14435c;
@@ -2969,40 +2990,40 @@ hero-btn {
 
 /* line 910, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
 .footer-padding {
-  padding-top: 143px;
-  padding-bottom: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* line 910, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
   .footer-padding {
-    padding-top: 143px;
-    padding-bottom: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 910, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
-  .footer-padding {
-    padding-top: 100px;
+  /* .footer-padding {
+    padding-top: 20px;
     padding-bottom: 50px;
-  }
+  } */
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 910, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
-  .footer-padding {
+  /* .footer-padding {
     padding-top: 80px;
     padding-bottom: 0px;
-  }
+  } */
 }
 
 @media (max-width: 575px) {
   /* line 910, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_common.scss */
-  .footer-padding {
+  /* .footer-padding {
     padding-top: 80px;
     padding-bottom: 0px;
-  }
+  } */
 }
 
 @media (max-width: 575px) {
@@ -4630,7 +4651,7 @@ hero-btn {
 
 /* line 1, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_footer.scss */
 .footer-area {
-  background: #11141b;
+  background: #888888;
 }
 
 /* line 3, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_footer.scss */
