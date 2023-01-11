@@ -3990,6 +3990,20 @@ hero-btn {
   transition: all 0.2s ease-out 0s;
   font-family: "Sarabun", sans-serif;
 }
+.categories-area .single-cat .cat-cap ul {
+  padding-left: 25px;
+  height: 150px;
+  
+}
+.categories-area .single-cat .cat-cap ul > li {
+
+  font-size: 20px;
+  font-weight: 300;
+  list-style-type: square;
+  color: #092c3f;
+  font-family: "Sarabun", sans-serif;
+  text-align: left;
+}
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 38, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_categories.scss */
@@ -4057,7 +4071,11 @@ hero-btn {
 }
 
 /* line 89, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_categories.scss */
-.categories-area .single-cat:hover .cat-cap p {
+.categories-area .single-cat:hover .cat-cap ul {
+  color: #fff;
+}
+
+.categories-area .single-cat:hover .cat-cap li {
   color: #fff;
 }
 
@@ -4464,7 +4482,7 @@ hero-btn {
 /* line 81, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_team.scss */
 .about-details .about-details-cap p {
   color: #464d65;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 /* line 1, C:/Users/HP/Desktop/264.Business_HTML/HTML/assets/scss/_testimonial.scss */
